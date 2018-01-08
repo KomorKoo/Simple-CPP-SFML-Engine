@@ -9,7 +9,7 @@ class ResourceHolder {
 	public:
 		ResourceManager<sf::Texture>	 textures;
 		ResourceManager<sf::SoundBuffer> sounds;
-		ResourceManager<sf::Font>		 fonts;
+		ResourceManager<sf::Font>	 fonts;
 
 	public:
 		static ResourceHolder& get();
