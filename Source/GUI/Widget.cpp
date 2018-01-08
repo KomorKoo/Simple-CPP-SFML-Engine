@@ -20,5 +20,5 @@ Widget::Text::Text() {
 	setCharacterSize(40);
 	setFillColor    (sf::Color::White);
 	setOutlineColor (sf::Color::Black);
-	setFont		    (ResourceHolder::get().fonts.get("Inconsolata"));
+	setFont		(ResourceHolder::get().fonts.get("Inconsolata"));
 }
