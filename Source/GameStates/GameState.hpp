@@ -15,8 +15,8 @@ class GameState {
 
 		virtual ~GameState() = default;
 
-		virtual void handleEvents(sf::Event ev)			= 0;
-		virtual void handleInput()						= 0;
-		virtual void update(float dt)					= 0;
+		virtual void handleEvents(sf::Event ev)		= 0;
+		virtual void handleInput()			= 0;
+		virtual void update(float dt)			= 0;
 		virtual void render(sf::RenderTarget& renderer) = 0;
 };
