@@ -1,5 +1,6 @@
-Simple C++ SFML Engine
+<h2><b>Simple C++ SFML Engine</b></h2>
+<hr>
 
-Made for 2d game or something
+Made for 2d games or something.
 
-Nothing special, just exercises I want to keep somewhere.
+Nothing special, just an exercise that I want to keep somewhere.
