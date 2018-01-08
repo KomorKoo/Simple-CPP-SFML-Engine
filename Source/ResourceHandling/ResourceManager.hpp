@@ -3,7 +3,7 @@
 #include <unordered_map>
 
 template<typename ResourceType>
-	class ResourceManager {
+class ResourceManager {
 	private:
 		std::string m_folder;
 		std::string m_extension;
