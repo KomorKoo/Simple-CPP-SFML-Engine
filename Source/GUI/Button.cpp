@@ -4,7 +4,7 @@
 
 void Button::updateText() {
 	m_buttonText.setOrigin(m_buttonText.getGlobalBounds().width / 2.0f,
-						   m_buttonText.getGlobalBounds().height / 1.15f);
+			       m_buttonText.getGlobalBounds().height / 1.15f);
 }
 
 Button::Button(const sf::Vector2f& pos, ButtonSize size) {
@@ -34,7 +34,7 @@ Button::Button(const sf::Vector2f& pos, ButtonSize size) {
 Button::Button(const Button& other) {
 	m_buttonShape = other.m_buttonShape;
 	m_buttonText  = other.m_buttonText;
-	m_function	  = other.m_function;
+	m_function    = other.m_function;
 }
 
 void Button::setFunction(std::function<void(void)> function) {
