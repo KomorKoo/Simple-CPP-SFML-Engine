@@ -8,8 +8,8 @@
 class DropMenu : public Widget {
 	private:
 		std::vector<std::unique_ptr<Button>> m_buttons;
-		Button*								 m_p_mButton;
-		bool								 m_isActive;
+		Button*				     m_p_mButton;
+		bool				     m_isActive;
 
 	public:
 		DropMenu(Button& button);
@@ -18,8 +18,8 @@ class DropMenu : public Widget {
 		void switchActivity();
 
 		bool handleEvents(const sf::RenderWindow& window, sf::Event ev) override;
-		void render(sf::RenderTarget& renderer)							override;
-		void setPosition(const sf::Vector2f& pos)						override;
-		sf::Vector2f getSize() const									override;
-		sf::Vector2f getPos() const										override;
+		void render(sf::RenderTarget& renderer)				override;
+		void setPosition(const sf::Vector2f& pos)			override;
+		sf::Vector2f getSize() const					override;
+		sf::Vector2f getPos() const					override;
 };
