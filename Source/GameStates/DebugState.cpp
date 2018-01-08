@@ -5,9 +5,9 @@
 #include "../Game.hpp"
 
 DebugState::DebugState(Game& game)
-:	GameState	 (game)
-,   m_menuTrigger({ 640.0f, 100.0f }, ButtonSize::Big)
-,	m_dropMenu(m_menuTrigger) {
+:	GameState    (game)
+,   	m_menuTrigger({ 640.0f, 100.0f }, ButtonSize::Big)
+,	m_dropMenu   (m_menuTrigger) {
 
 	m_menuTrigger.setFunction([]() {
 		;
@@ -42,7 +42,7 @@ DebugState::DebugState(Game& game)
 	m_dropMenu.addItem(tempButton);
 
 	m_dropMenu.setPosition({ m_p_game->getWindow().getSize().x / 2.0f,
-							 m_p_game->getWindow().getSize().y / 6.0f });
+				 m_p_game->getWindow().getSize().y / 6.0f });
 }
 
 void DebugState::handleEvents(sf::Event ev) {
