@@ -12,8 +12,8 @@ class DebugState : public GameState {
 	public:
 		DebugState(Game& game);
 
-		void handleEvents(sf::Event ev)			override;
-		void handleInput()						override;
-		void update(float dt)					override;
+		void handleEvents(sf::Event ev)		override;
+		void handleInput()			override;
+		void update(float dt)			override;
 		void render(sf::RenderTarget& renderer) override;
 };
